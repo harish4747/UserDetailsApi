@@ -1,0 +1,54 @@
+#parentdiv {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: antiquewhite;
+    font-family:cursive;
+    font-size: 15px;
+}
+
+.images {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.images:hover {
+    transform: scale(1.1);
+}
+
+.innerdiv {
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 30px;
+    padding-left: 20px;
+    background-color: white;
+    box-shadow: 8px 8px 10px 3px gray;
+}
+
+.innerdiv .images {
+    margin-left: 38px;
+
+}
+
+.innerdiv button {
+    margin-left: 33px;
+}
+
+button {
+    background-color: rgb(79, 79, 230);
+    color: white;
+    padding: 10px;
+    border-radius: 35px;
+    position: relative;
+    top: 12px;
+    border: 2px solid white;
+    transition: border 10ms;
+
+}
+
+button:hover {
+    border: 2px solid rgb(79, 79, 230);
+    box-shadow: 2px 2px 2px black;
+}
